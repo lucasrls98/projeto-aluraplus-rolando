@@ -119,17 +119,28 @@ body{
 
 
 .rodape__logo{
+    width: 102px;
+}
+.rodape{
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 99px;
 }
 
 .lista__link{
     display: flex;
-    justify-content: center;
-    text-decoration: none;
+    justify-content: center;    
+    gap: 16px;
 } 
+.lista__link > a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
 
 
 .rodape__texto{
     text-align: center;
+    font-size: 14px;
 }
